@@ -1,0 +1,113 @@
+/* Main Links */
+a:link
+{
+	color: #6495ED;
+	text-decoration: none;
+	font-size: 16px;
+}
+a:visited
+{
+	color: #6495ED;
+	text-decoration: none;
+	font-size: 16px;
+}
+a:hover
+{
+	color: #ADD8E6;
+	font-size: 16px;
+}
+/* Divs Start */
+div.h1
+{
+	background: #6495ED;
+}
+div.h2
+{
+	float: left;
+	color: #FFFFFF;
+	font-size: 30px;
+	font-weight: bold;
+}
+div.h3
+{
+	float: right;
+	font-size: 16px;
+	font-weight: bold;
+	margin-right: 20px;
+	margin-bottom:1px;
+}
+a.h2:link
+{
+	float: left;
+	color: #FFFFFF;
+	font-size: 30px;
+	font-weight: bold;
+}
+a.h2:visited
+{
+	color: #FFFFFF;
+}
+a.h2:hover
+{
+	color: #FFFFFF;
+	background-color: #ADD8E6;
+}
+a.h3:link
+{
+	color: #FFFFFF;
+	font-size: 16px;
+	font-weight: bold;
+	margin-bottom:1px;
+}
+a.h3:visited
+{
+	color: #FFFFFF;
+}
+a.h3:hover
+{
+	color: #FFFFFF;
+	background-color: #ADD8E6;
+}
+div.h4
+{
+	text-align: right;
+	font-size: 16px;
+	font-weight: bold;
+	margin-right: 20px;
+}
+a.h4:link
+{
+	color: #FFFFFF;
+	font-size: 16px;
+	font-weight: bold;
+	background-color: #00FFFF;
+}
+a.h4:visited
+{
+	color: #FFFFFF;
+}
+a.h4:hover
+{
+	color: #FFFFFF;
+	background-color: #ADD8E6;
+}
+div.news1
+{
+	color: #FFFFFF;
+	border-style: solid;
+	border-color: #6495ED;
+	border-width: 2px;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+div.news2
+{
+	font-size: 20px;
+	background-color: #6495ED;
+	text-decoration: underline;
+}
+div.news3
+{
+	color: #000000;
+	font-size: 16px;
+}

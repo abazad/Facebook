@@ -1,0 +1,34 @@
+<html>
+
+	<head>
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+  				$(".comment").click(function(){
+    					$(".form").slideToggle("slow");
+  				});
+			});
+		</script>
+		<style type="text/css">
+			div.form
+			{
+				display:none;
+			}
+		</style>
+	</head>
+
+	<body>
+		<center>
+			<div class="form">
+				<form action="" method="post">
+					<textarea name='message' rows='10' columns='50'></textarea><br />
+					<input type='submit' value='Submit'>
+				</form>
+			</div>
+			<div class="comment" align="center">
+				Comment Here
+			</div>
+		</center>
+	</body>
+
+</html>
